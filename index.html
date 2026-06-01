@@ -23,10 +23,6 @@
             opacity: 1;
             transform: translateY(0);
         }
-
-        input, textarea {
-            border-radius: 8px;
-        }
     </style>
 </head>
 
@@ -40,9 +36,9 @@
 </div>
 
 <!-- NAV -->
-<header class="sticky top-0 z-50 flex justify-between items-center px-10 py-5 border-b border-white/5 backdrop-blur-md bg-black/60">
+<header class="sticky top-0 z-50 flex justify-between items-center px-10 py-5 border-b border-white/5 backdrop-blur-md bg-black/50">
 
-    <h1 class="text-lg font-semibold tracking-[0.35em]">
+    <h1 class="text-lg font-semibold tracking-[0.3em]">
         CNK RENOVATIONS
     </h1>
 
@@ -56,28 +52,18 @@
 </header>
 
 <!-- HERO -->
-<section class="h-[90vh] flex flex-col justify-center items-center text-center px-6 relative fade-in overflow-hidden">
-
-    <div class="absolute inset-0 -z-10 scale-110">
-        <img src="https://images.unsplash.com/photo-1501183638710-841dd1904471"
-             class="w-full h-full object-cover opacity-25 blur-[1px]">
-    </div>
-
-    <div class="absolute inset-0 bg-gradient-to-b from-black/80 via-black/60 to-black/90 -z-10"></div>
-
-    <div class="absolute inset-0 -z-10 opacity-20"
-         style="background: radial-gradient(circle at center, rgba(255,255,255,0.08), transparent 60%);"></div>
+<section class="h-[90vh] flex flex-col justify-center items-center text-center px-6 fade-in">
 
     <h2 class="text-5xl md:text-7xl font-light tracking-wide">
         WE BUILD MODERN SPACES
     </h2>
 
-    <p class="text-gray-300 mt-6 max-w-2xl leading-relaxed">
+    <p class="text-gray-300 mt-6 max-w-2xl">
         CNK Renovations delivers high-quality renovation solutions for residential and commercial spaces.
     </p>
 
     <a href="#projects"
-       class="mt-10 px-6 py-3 border border-white/20 rounded-lg text-sm tracking-wide hover:border-white hover:scale-105 transition">
+       class="mt-10 px-6 py-3 border border-white/20 text-sm hover:border-white transition">
         Explore Our Work
     </a>
 
@@ -86,184 +72,135 @@
 <!-- SERVICES -->
 <section id="services" class="fade-in px-10 py-24">
 
-    <h3 class="text-2xl font-light mb-12 tracking-wide">Our Services</h3>
+    <h3 class="text-2xl font-light mb-12">Our Services</h3>
 
     <div class="grid md:grid-cols-3 gap-10">
 
-        <div class="border border-white/5 p-6 rounded-lg hover:border-white/20 hover:scale-[1.02] transition">
-            <h4 class="text-lg font-medium">Residential Renovations</h4>
-            <p class="text-gray-400 mt-3 text-sm leading-relaxed">
-                Complete and partial home renovations designed to improve comfort, style, and value.
-            </p>
+        <div class="border border-white/5 p-6">
+            <h4 class="text-lg">Residential Renovations</h4>
+            <p class="text-gray-400 mt-3 text-sm">Home renovations with premium quality.</p>
         </div>
 
-        <div class="border border-white/5 p-6 rounded-lg hover:border-white/20 hover:scale-[1.02] transition">
-            <h4 class="text-lg font-medium">Commercial Spaces</h4>
-            <p class="text-gray-400 mt-3 text-sm leading-relaxed">
-                Modern renovation solutions for offices, shops, and professional environments.
-            </p>
+        <div class="border border-white/5 p-6">
+            <h4 class="text-lg">Commercial Spaces</h4>
+            <p class="text-gray-400 mt-3 text-sm">Offices and business spaces design.</p>
         </div>
 
-        <div class="border border-white/5 p-6 rounded-lg hover:border-white/20 hover:scale-[1.02] transition">
-            <h4 class="text-lg font-medium">Interior Design</h4>
-            <p class="text-gray-400 mt-3 text-sm leading-relaxed">
-                Functional and aesthetic interior design tailored to your vision and lifestyle.
-            </p>
+        <div class="border border-white/5 p-6">
+            <h4 class="text-lg">Interior Design</h4>
+            <p class="text-gray-400 mt-3 text-sm">Modern interior concepts.</p>
         </div>
 
     </div>
-</section>
-
-<!-- STATEMENT -->
-<section class="fade-in px-10 py-24 text-center border-t border-white/5">
-
-    <h3 class="text-3xl font-light tracking-wide">
-        Design. Precision. Transformation.
-    </h3>
-
-    <p class="text-gray-400 mt-6 max-w-2xl mx-auto leading-relaxed">
-        Every space has potential. We transform it through thoughtful design and execution.
-    </p>
-
 </section>
 
 <!-- PROJECTS -->
 <section id="projects" class="fade-in px-10 py-24 border-t border-white/5">
 
-    <h3 class="text-2xl font-light mb-12 tracking-wide">Concept Projects</h3>
+    <h3 class="text-2xl font-light mb-12">Concept Projects</h3>
 
     <div class="grid md:grid-cols-3 gap-8">
 
-        <div class="border border-white/5 overflow-hidden group rounded-lg">
+        <div class="border border-white/5 overflow-hidden">
             <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
-                 class="w-full h-60 object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition duration-500">
-            <div class="p-4">
-                <p class="text-sm text-gray-400">Modern Apartment Renovation</p>
-            </div>
+                 class="w-full h-60 object-cover opacity-80 hover:opacity-100 hover:scale-105 transition">
+            <div class="p-4 text-sm text-gray-400">Modern Apartment Renovation</div>
         </div>
 
-        <div class="border border-white/5 overflow-hidden group rounded-lg">
+        <div class="border border-white/5 overflow-hidden">
             <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c"
-                 class="w-full h-60 object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition duration-500">
-            <div class="p-4">
-                <p class="text-sm text-gray-400">Commercial Office Design</p>
-            </div>
+                 class="w-full h-60 object-cover opacity-80 hover:opacity-100 hover:scale-105 transition">
+            <div class="p-4 text-sm text-gray-400">Commercial Office Design</div>
         </div>
 
-        <div class="border border-white/5 overflow-hidden group rounded-lg">
+        <div class="border border-white/5 overflow-hidden">
             <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511"
-                 class="w-full h-60 object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition duration-500">
-            <div class="p-4">
-                <p class="text-sm text-gray-400">Interior Design Concept</p>
-            </div>
+                 class="w-full h-60 object-cover opacity-80 hover:opacity-100 hover:scale-105 transition">
+            <div class="p-4 text-sm text-gray-400">Interior Design Concept</div>
         </div>
 
     </div>
-
-</section>
-
-<!-- VALUES -->
-<section class="fade-in px-10 py-24 border-t border-white/5">
-
-    <div class="grid md:grid-cols-3 gap-10 text-center">
-
-        <div>
-            <h3 class="text-3xl font-light">Quality</h3>
-            <p class="text-gray-400 mt-3">Attention to detail in every stage.</p>
-        </div>
-
-        <div>
-            <h3 class="text-3xl font-light">Design</h3>
-            <p class="text-gray-400 mt-3">Modern aesthetics with functionality.</p>
-        </div>
-
-        <div>
-            <h3 class="text-3xl font-light">Execution</h3>
-            <p class="text-gray-400 mt-3">Professional delivery every time.</p>
-        </div>
-
-    </div>
-
 </section>
 
 <!-- ABOUT -->
 <section id="about" class="fade-in px-10 py-24 border-t border-white/5">
 
-    <h3 class="text-2xl font-light mb-6 tracking-wide">About CNK</h3>
+    <h3 class="text-2xl font-light mb-6">About CNK</h3>
 
-    <p class="text-gray-400 max-w-3xl leading-relaxed">
-        CNK Renovations is a modern construction company specializing in high-end residential and commercial projects.
+    <p class="text-gray-400 max-w-3xl">
+        CNK Renovations is a modern construction company delivering high-end renovation solutions.
     </p>
 
 </section>
 
-
+<!-- CONTACT -->
 <section id="contact" class="fade-in px-10 py-24 border-t border-white/5">
 
-    <h3 class="text-2xl font-light mb-6 tracking-wide">Contact</h3>
+    <h3 class="text-2xl font-light mb-6">Contact</h3>
 
-    <!-- FORM ONLY (MAIN CONTACT) -->
-    <form action="https://formspree.io/f/xqejvvaz" method="POST" class="max-w-xl space-y-4">
+    <form action="https://formspree.io/f/xqejvvaz" method="POST" id="contactForm"
+          class="max-w-xl space-y-4">
 
         <input type="text" name="name" placeholder="Your Name"
-            class="w-full bg-transparent border border-white/10 p-4 focus:border-white/40 outline-none rounded-lg">
+            class="w-full bg-transparent border border-white/10 p-4 rounded-lg">
 
         <input type="email" name="email" placeholder="Your Email"
-            class="w-full bg-transparent border border-white/10 p-4 focus:border-white/40 outline-none rounded-lg">
+            class="w-full bg-transparent border border-white/10 p-4 rounded-lg">
 
-        <input type="tel" name="phone" placeholder="Your Phone Number"
-            class="w-full bg-transparent border border-white/10 p-4 focus:border-white/40 outline-none rounded-lg">
+        <input type="tel" name="phone" placeholder="Your Phone"
+            class="w-full bg-transparent border border-white/10 p-4 rounded-lg">
 
-        <input type="text" name="viber" placeholder="Viber Number"
-            class="w-full bg-transparent border border-white/10 p-4 focus:border-white/40 outline-none rounded-lg">
+        <textarea name="message" rows="5" placeholder="Message"
+            class="w-full bg-transparent border border-white/10 p-4 rounded-lg"></textarea>
 
-        <textarea name="message" rows="5" placeholder="Your Project Details"
-            class="w-full bg-transparent border border-white/10 p-4 focus:border-white/40 outline-none rounded-lg"></textarea>
-
-        <button type="submit"
-            class="px-6 py-3 border border-white/20 hover:border-white transition tracking-wide rounded-lg">
+        <button type="submit" id="submitBtn"
+            class="px-6 py-3 border border-white/20 hover:border-white transition rounded-lg">
             Send Message
         </button>
 
     </form>
 
-    <!-- ICON CONTACT (CALL + WHATSAPP ONLY) -->
- <div class="flex justify-center gap-6 mt-10">
+    <!-- ICONS -->
+    <div class="flex justify-center gap-6 mt-10">
 
-    <!-- CALL -->
-    <a href="tel:+306980418419"
-       class="w-14 h-14 flex items-center justify-center border border-white/20 rounded-full hover:border-white hover:scale-110 transition">
+        <a href="tel:+306980418419"
+           class="w-14 h-14 flex items-center justify-center border border-white/20 rounded-full hover:scale-110 transition">
+            📞
+        </a>
 
-        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
-                  d="M3 5h2l3 7-1.5 1.5a16 16 0 006 6L14 18l7 3v2a2 2 0 01-2 2
-                  A17 17 0 013 5z"/>
-        </svg>
+        <a href="https://wa.me/306980418419"
+           target="_blank"
+           class="w-14 h-14 flex items-center justify-center border border-white/20 rounded-full hover:scale-110 transition">
+            💬
+        </a>
 
-    </a>
-
-    <!-- WHATSAPP -->
-    <a href="https://wa.me/306980418419"
-       target="_blank"
-       class="w-14 h-14 flex items-center justify-center border border-white/20 rounded-full hover:border-green-500 hover:scale-110 transition">
-
-        <svg class="w-6 h-6 text-green-500" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M20.52 3.48A11.86 11.86 0 0012.06 0C5.53 0 .2 5.33.2 11.86c0 2.08.54 4.1 1.58 5.88L0 24l6.36-1.67a11.8 11.8 0 005.7 1.45h.01c6.53 0 11.86-5.33 11.86-11.86
-            0-3.16-1.23-6.13-3.41-8.44zM12.07 21.5h-.01a9.6 9.6 0 01-4.88-1.33l-.35-.2-3.77.99 1-3.67-.23-.38a9.6 9.6 0 0115.26-11.7 9.6 9.6 0 01-7.02 16.29zm5.26-7.19c-.29-.14-1.7-.84-1.96-.94-.26-.1-.45-.14-.64.14-.19.29-.74.94-.91 1.13-.17.19-.34.21-.63.07-.29-.14-1.23-.45-2.34-1.44-.87-.78-1.46-1.74-1.63-2.03-.17-.29-.02-.45.13-.59.13-.13.29-.34.43-.51.14-.17.19-.29.29-.48.1-.19.05-.36-.02-.5-.07-.14-.64-1.55-.88-2.12-.23-.55-.47-.48-.64-.49h-.54c-.19 0-.5.07-.76.36-.26.29-1 1-1 2.43s1.03 2.81 1.17 3c.14.19 2.05 3.13 4.97 4.39.7.3 1.25.48 1.68.62.71.23 1.36.2 1.87.12.57-.08 1.7-.69 1.94-1.36.24-.67.24-1.24.17-1.36-.07-.12-.26-.19-.55-.33z"/>
-        </svg>
-
-    </a>
-
- </div>  
-
-    <p class="text-gray-500 text-xs mt-6 text-center">
-        We respond within 24 hours via Phone, Email or Viber.
-    </p>
+    </div>
 
 </section>
 
+<!-- FOOTER -->
+<footer class="px-10 py-8 border-t border-white/5 text-gray-500 text-sm">
+    © 2026 CNK Renovations
+</footer>
 
+<!-- SCRIPT -->
 <script>
+document.getElementById("contactForm").addEventListener("submit", function () {
+
+    const btn = document.getElementById("submitBtn");
+
+    btn.innerText = "Sending...";
+    btn.disabled = true;
+
+    setTimeout(() => {
+        this.reset();
+        btn.innerText = "Send Message";
+        btn.disabled = false;
+        alert("Message sent successfully!");
+    }, 800);
+
+});
+
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if(entry.isIntersecting){
