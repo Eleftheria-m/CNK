@@ -52,8 +52,21 @@
 </header>
 
 <!-- HERO -->
-<section class="h-[90vh] flex flex-col justify-center items-center text-center px-6 fade-in">
+<section class="h-[90vh] flex flex-col justify-center items-center text-center px-6 fade-in relative overflow-hidden">
 
+    <!-- FIXED BACKGROUND -->
+    <div class="absolute inset-0 -z-10">
+        <img src="https://images.unsplash.com/photo-1501183638710-841dd1904471"
+             class="w-full h-full object-cover opacity-40">
+    </div>
+
+    <div class="absolute inset-0 -z-10 bg-black/70"></div>
+
+    <div class="absolute inset-0 -z-10"
+         style="background: radial-gradient(circle at center, rgba(255,255,255,0.08), transparent 60%);">
+    </div>
+
+    <!-- CONTENT -->
     <h2 class="text-5xl md:text-7xl font-light tracking-wide">
         WE BUILD MODERN SPACES
     </h2>
@@ -160,17 +173,19 @@
 
     </form>
 
-    <!-- ICONS -->
+    <!-- FIXED ICONS -->
     <div class="flex justify-center gap-6 mt-10">
 
+        <!-- PHONE -->
         <a href="tel:+306980418419"
-           class="w-14 h-14 flex items-center justify-center border border-white/20 rounded-full hover:scale-110 transition">
+           class="w-14 h-14 flex items-center justify-center border border-white/20 rounded-full hover:scale-110 transition text-xl">
             📞
         </a>
 
+        <!-- WHATSAPP -->
         <a href="https://wa.me/306980418419"
            target="_blank"
-           class="w-14 h-14 flex items-center justify-center border border-white/20 rounded-full hover:scale-110 transition">
+           class="w-14 h-14 flex items-center justify-center border border-white/20 rounded-full hover:scale-110 transition text-xl">
             💬
         </a>
 
